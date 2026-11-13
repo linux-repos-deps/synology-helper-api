@@ -1,0 +1,139 @@
+---
+# This file is used to track the documentation status of the different API classes.
+# It should be manually updated by the maintainers.
+
+BaseApi:
+    status: finished
+
+ActiveBackupBusiness:
+    status: finished
+ActiveBackupMicrosoft:
+    status: finished
+AdminConsole:
+    status: finished
+Antivirus:
+    status: finished
+AsyncClient:
+    status: finished
+AudioStation:
+    status: partial
+Backup:
+    status: finished
+Calendar:
+    status: finished
+Certificate:
+    status: partial
+ChatUser:
+    status: finished
+ChatBot:
+    status: finished
+CloudSync:
+    status: finished
+CoreNotification:
+    status: partial
+CoreDirectory:
+    status: partial
+CoreDirectoryServiceCheck:
+    status: partial
+CoreExternalDevice:
+    status: partial
+CoreNetwork:
+    status: partial
+CoreSecurity:
+    status: partial
+CoreSecurityAuth:
+    status: partial
+CoreServiceApps:
+    status: partial
+CoreServiceHW:
+    status: partial
+CoreServiceUser:
+    status: partial
+CoreStorage:
+    status: partial
+CoreSystem:
+    status: partial
+CoreUpgrade:
+    status: partial
+DhcpServer:
+    status: partial
+DirectoryServer:
+    status: finished
+Docker:
+    status: finished
+DownloadStation:
+    status: partial
+EventScheduler:
+    status: finished
+FileStation:
+    status: partial
+Group:
+    status: finished
+ISCSI:
+    status: finished
+KeyManagerStore:
+    status: not_started
+KeyManagerAutoKey:
+    status: not_started
+LdapServer:
+    status: partial
+LogCenter:
+    status: partial
+LUN:
+    status: finished
+MailPlusServer:
+    status: finished
+NoteStation:
+    status: partial
+OAuth:
+    status: partial
+Package:
+    status: partial
+Photos:
+    status: finished
+SecurityAdvisor:
+    status: partial
+Share:
+    status: partial
+SharePermission:
+    status: partial
+Snapshot:
+    status: finished
+SurveillanceStation:
+    status: partial
+SysInfo:
+    status: partial
+Target:
+    status: finished
+TaskScheduler:
+    status: finished
+UniversalSearch:
+    status: partial
+USBCopy:
+    status: finished
+User:
+    status: finished
+VPN:
+    status: partial
+Virtualization:
+    status: partial
+WebStation:
+    status: finished
+
+ActiveInsight:
+    status: partial
+
+Contacts:
+    status: partial
+
+DocumentViewer:
+    status: partial
+
+Replication:
+    status: partial
+
+StorageAnalyzer:
+    status: partial
+
+VMware:
+    status: partial
