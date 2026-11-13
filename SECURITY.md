@@ -1,3 +1,4 @@
+
 # Security Policy
 
 See our [Security Policy](https://N4S4.github.io/synology-api/docs/contribute/security) for full details on reporting vulnerabilities, responsible disclosure, and security best practices.

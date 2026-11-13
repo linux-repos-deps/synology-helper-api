@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
-# script to install dependencies for asdf on Linux
 
 # TODO: architecture detection and use package manager for the specific distribution
 
-# https://asdf-vm.com/guide/getting-started.html#plugin-dependencies
-# https://asdf-vm.com/guide/getting-started.html#install-dependencies
 echo "Installing dependencies for linux..."
 apt update
 apt install -y git bash dirmngr gpg curl gawk golang make
