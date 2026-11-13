@@ -1,7 +1,4 @@
 """
-Synology Chat API wrapper for DSM 7.3.2.
-
-Tested against DSM 7.3.2 (DS218+) with Synology Chat Server 2.4.5-22148.
 39 Chat APIs registered; 35 confirmed working (+ bot/webhook token modes).
 
 Two authentication modes

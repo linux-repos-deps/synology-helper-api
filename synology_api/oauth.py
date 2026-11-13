@@ -1,6 +1,4 @@
 """
-OAuth API wrapper for Synology DSM.
-
 This module provides a class to interact with the Synology OAuth API.
 """
 

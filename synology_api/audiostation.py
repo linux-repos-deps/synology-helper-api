@@ -11,9 +11,6 @@ class AudioStation(base_api.BaseApi):
         """
         Retrieve general information about the AudioStation service.
 
-        Returns
-        -------
-        dict[str, object]
             A dictionary containing the service information or a string in case of an error.
         """
         api_name = 'SYNO.AudioStation.Info'
