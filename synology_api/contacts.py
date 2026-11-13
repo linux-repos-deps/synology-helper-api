@@ -1,10 +1,3 @@
-"""
-Synology Contacts API wrapper.
-
-This module provides a Python interface for accessing contacts, address books, labels,
-and organizational units on Synology NAS devices.
-"""
-
 from __future__ import annotations
 
 import json

@@ -1,9 +1,3 @@
-"""
-Photos API wrapper for Synology DSM.
-
-This module provides a class to interact with the Synology Photos API.
-"""
-
 from __future__ import annotations
 from typing import Optional, Any
 from . import base_api

@@ -1,4 +1,3 @@
-"""Provides authentication and API request handling for Synology DSM, including session management, encryption utilities, and error handling for various Synology services."""
 from __future__ import annotations
 import secrets
 from typing import Optional, Any, Union
@@ -122,7 +121,6 @@ class Authentication:
             missing_credentials = not all([username, password])
         else:
             missing_credentials = not all(
-                [ip_address, port, username, password])
         if missing_credentials:
             raise ValueError(
                 "Missing required credentials for initial authentication.")

@@ -9,41 +9,6 @@ from . import auth as syn
 
 
 class BaseApi(object):
-    """
-    Base class to be used for all API implementations.
-
-    Takes auth and connection information to create a session to the NAS.
-    The session is created on instanciation.
-
-    Parameters
-    ----------
-    ip_address : str
-        The IP/DNS address of the NAS.
-    port : str
-        The port of the NAS. Defaults to `5000`.
-    username : str
-        The username to use for authentication.
-    password : str
-        The password to use for authentication.
-    secure : bool, optional
-        Whether to use HTTPS or not. Defaults to `False`.
-    cert_verify : bool, optional
-        Whether to verify the SSL certificate or not. Defaults to `False`.
-    dsm_version : int, optional
-        The DSM version. Defaults to `7`.
-    debug : bool, optional
-        Whether to print debug messages or not. Defaults to `True`.
-    otp_code : str, optional
-        The OTP code to use for authentication. Defaults to `None`.
-    device_id : str, optional
-        Device ID for device binding. Defaults to `None`.
-    device_name : str, optional
-        Device name for device binding. Defaults to `None`.
-    application : str, optional
-        The application context for API list retrieval. Defaults to `'Core'`.
-    quickconnect_id : str, optional
-        QuickConnect ID for relay-based access. Defaults to `None`.
-    """
 
     # Class-level attribute to store the shared session
     shared_session: Optional[syn.Authentication] = None
